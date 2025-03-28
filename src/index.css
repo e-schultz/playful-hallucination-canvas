@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -98,4 +99,40 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.cosmic-gradient {
+  background: linear-gradient(135deg, #03071e 0%, #1a0b2e 25%, #3a0ca3 100%);
+}
+
+.glow {
+  filter: drop-shadow(0 0 8px rgba(123, 44, 191, 0.8));
+}
+
+.hexagon {
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.thought-bubble::before {
+  content: '';
+  position: absolute;
+  bottom: -20px;
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: inherit;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.thought-bubble::after {
+  content: '';
+  position: absolute;
+  bottom: -35px;
+  left: 10px;
+  width: 15px;
+  height: 15px;
+  background-color: inherit;
+  border-radius: 50%;
+  z-index: -1;
 }
