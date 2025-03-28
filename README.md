@@ -7,6 +7,9 @@ FLOAT.K8s is an interactive visualization framework designed to explore the evol
 
 The application represents a personal framework for structuring thoughts, inspired by Kubernetes architecture but applied to cognitive processes. It visualizes nodes of concepts that orbit around a central theme, allowing users to explore different aspects of meta-cognitive structures.
 
+![FLOAT.K8s Exclusions Management Interface](public/lovable-uploads/6a55cb65-f0df-4c55-9381-c975e297066b.png)
+*Symbolic representation of the system's exclusion management - another layer of meta-cognitive structuring*
+
 ## Project info
 
 **URL**: https://lovable.dev/projects/28207199-c6d3-4596-81fc-aaba0a2fd0dd
