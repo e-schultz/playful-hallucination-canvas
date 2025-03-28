@@ -1,8 +1,46 @@
-# Welcome to your Lovable project
+
+# FLOAT.K8s - Playful Hallucination Canvas
+
+## Project Overview
+
+FLOAT.K8s is an interactive visualization framework designed to explore the evolution from chaotic play to structured systems, with a focus on meta-meta cognition. This project serves as a canvas for visualizing recursive thought patterns and managing cognitive overwhelm through playful interactions.
+
+The application represents a personal framework for structuring thoughts, inspired by Kubernetes architecture but applied to cognitive processes. It visualizes nodes of concepts that orbit around a central theme, allowing users to explore different aspects of meta-cognitive structures.
 
 ## Project info
 
 **URL**: https://lovable.dev/projects/28207199-c6d3-4596-81fc-aaba0a2fd0dd
+
+## Architecture
+
+The project is built with a modular component architecture:
+
+### Core Components
+
+- **FloatCanvas**: The main container that orchestrates all visualization elements
+- **MawOrbit**: Handles the circular node layout and orbital visualization
+- **CosmicBackdrop**: Provides atmospheric background elements
+- **NodeDetailDialog**: Modal component for displaying detailed node information
+- **ThoughtEchoes**: Visualizes thought bubbles with contextual tags
+- **RitualFilter**: A symbolic component for future filtering capabilities
+
+### State Management
+
+- **useMawStore**: Zustand store for managing application state
+- Core state includes: selected node, drift mode toggle, and thought bubbles
+
+### Data Structure
+
+- **FloatNode**: Typed structure for concept nodes with hierarchical relationships
+- Supports attributes and sub-nodes to represent complex thought patterns
+
+## Philosophy
+
+FLOAT.K8s represents a personal framework for:
+- Managing meta-meta cognitive processes
+- Exploring recursive thought patterns
+- Providing structure to chaotic cognitive experiences
+- Creating playful interactions with symbolic tenderness
 
 ## How can I edit this code?
 
@@ -52,13 +90,14 @@ npm run dev
 
 ## What technologies are used for this project?
 
-This project is built with .
+This project is built with:
 
 - Vite
 - TypeScript
 - React
 - shadcn-ui
 - Tailwind CSS
+- Zustand for state management
 
 ## How can I deploy this project?
 
