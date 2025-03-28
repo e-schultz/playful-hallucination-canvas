@@ -14,6 +14,18 @@ The application represents a personal framework for structuring thoughts, inspir
 
 **URL**: https://lovable.dev/projects/28207199-c6d3-4596-81fc-aaba0a2fd0dd
 
+## Project Description
+
+FLOAT.K8s (Framework for Layered Orbiting Articulation of Thoughts, Kubernetes-inspired) provides a visual playground for exploring meta-cognitive processes. It presents a novel approach to understanding how thoughts and concepts relate to one another by arranging them in orbital patterns around a central theme.
+
+The framework treats cognitive patterns as interconnected nodes in a system, similar to how Kubernetes manages containerized applications. Just as Kubernetes orchestrates complex systems, FLOAT.K8s helps visualize and structure complex thought patterns in an accessible and interactive format.
+
+Key features include:
+- Orbital visualization of concept nodes with hierarchical relationships
+- Dynamic "thought echoes" that represent emergent ideas
+- Ritual vs. logic viewing modes for different perspectives on concepts
+- Drift mode toggle to animate the orbiting nodes
+
 ## Architecture
 
 The project is built with a modular component architecture:
@@ -21,21 +33,47 @@ The project is built with a modular component architecture:
 ### Core Components
 
 - **FloatCanvas**: The main container that orchestrates all visualization elements
+  - Manages the overall layout and component interactions
+  - Provides context for the visualization framework
+
 - **MawOrbit**: Handles the circular node layout and orbital visualization
+  - Positions nodes in a circular pattern around a central point
+  - Manages sub-nodes and their relationships to parent nodes
+  - Controls animation and interaction with node elements
+
+- **FloatingNode**: Renders individual concept nodes with appropriate styling
+  - Differentiates node types through visual styling
+  - Handles click events for node selection
+
 - **CosmicBackdrop**: Provides atmospheric background elements
+  - Creates an immersive spatial environment
+  - Adds subtle animated effects to enhance the cosmic theme
+
 - **NodeDetailDialog**: Modal component for displaying detailed node information
+  - Shows expanded content for selected nodes
+  - Provides tabbed interface for different view modes (logical vs. ritual)
+  - Renders node attributes in a structured format
+
 - **ThoughtEchoes**: Visualizes thought bubbles with contextual tags
+  - Displays emerging thoughts as they occur
+  - Analyzes content to apply appropriate thematic tags
+
 - **RitualFilter**: A symbolic component for future filtering capabilities
+  - Currently a placeholder for expanded functionality
+  - Represents the symbolic/ritual aspect of the framework
 
 ### State Management
 
 - **useMawStore**: Zustand store for managing application state
-- Core state includes: selected node, drift mode toggle, and thought bubbles
+  - Maintains selected node information
+  - Controls drift mode toggle state
+  - Manages thought bubble collection and addition
 
 ### Data Structure
 
 - **FloatNode**: Typed structure for concept nodes with hierarchical relationships
-- Supports attributes and sub-nodes to represent complex thought patterns
+  - Supports attributes and sub-nodes to represent complex thought patterns
+  - Includes typing for various node categories (userContext, originPoint, etc.)
 
 ## Philosophy
 
