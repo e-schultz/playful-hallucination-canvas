@@ -1,5 +1,6 @@
 
 # FLOAT.K8s - Playful Hallucination Canvas
+<img width="1149" alt="Screenshot 2025-03-28 at 12 07 17 PM" src="https://github.com/user-attachments/assets/55fff548-0600-493e-9279-e0cc87169d0c" />
 
 ## Project Overview
 
